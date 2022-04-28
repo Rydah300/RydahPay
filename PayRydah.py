@@ -347,7 +347,7 @@ class __xxx__:
         elif chi in ('1', '01'):
             os.system("clear")
             print(logo)
-            print("           \033[1;91m\r😊USE FLIGHT (airplane) MODE ON\033[1;96m")
+            print("                  \033[1;91m\r😊USE FLIGHT (airplane) MODE ON\033[1;96m")
             print(50*"-")
             print('            \033[1;36m😊TOTAL IDS : %s ' % len(self.id))
             print('             \033[1;36m😊RYDAH CLONING STARTED.....')
