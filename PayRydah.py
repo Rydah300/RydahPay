@@ -71,6 +71,104 @@ def jalan(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.01)
+	
+	
+	
+def main_apv():
+
+    imt="110Y=="
+
+    ak="Rydah-1"
+
+    os.system('clear')
+
+    print(logo)
+
+    try:
+
+        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
+
+    except IOError:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        print ("  BROTHER YOUR KEY IS NOT YET ACTIVATED")
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        print ("           THIS IS YOUR KEY")
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        print ("")
+
+        myid=uuid.uuid4().hex[:10].upper()
+
+        print ("          YOUR KEY : "+ak+myid+imt)
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
+
+        kok.write(myid+imt)
+
+        kok.close()
+
+        print ("")
+
+        print ("")
+
+        print ("     Copy Key And Send Me WhatsApp Approval Your Key ")
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
+
+        os.system('am start https://wa.me/+2349017624430?text=' + tks)
+
+        
+
+    r1=requests.get("https://github.com/Rydah300/RydahPay/blob/main/apprvl.txt").text
+
+    if key1 in r1:
+
+        R()
+
+    else:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        print ("   BROTHER YOUR KEY IS NOT YET ACTIVATED")
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        print ("          THIS IS YOUR KEY BRO")
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        print ("          YOUR KEY : "+ak+key1)
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        print ("     Copy Key And Send To Me On WP Approval Your Key ")
+
+        print ("[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
+
+        os.system('am start https://wa.me/+2349017624430?text=' + tks)
 
 logo =                                          """   
 \033[0;93m╔══╗
@@ -249,10 +347,10 @@ class __xxx__:
         elif chi in ('1', '01'):
             os.system("clear")
             print(logo)
-            print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
+            print("           \033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
             print(50*"-")
-            print('\033[1;36mTOTAL IDS : %s ' % len(self.id))
-            print('\033[1;36mRYDAH CLONING STARTED.....')
+            print('            \033[1;36mTOTAL IDS : %s ' % len(self.id))
+            print('             \033[1;36mRYDAH CLONING STARTED.....')
             print(50*"-")
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # RYDAH NIGERIAN HACKER
