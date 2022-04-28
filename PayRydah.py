@@ -210,9 +210,9 @@ def sarfraz():
     todz = ''
     IP = ipm['origin']
     print
-    print(' [1] START CLONING WITH RYDAH')
-    print(' [2] JOIN RYDAH WP WORLD')
-    print(' [3] EXIT ')
+    print(' [01] START CLONING WITH RYDAH')
+    print(' [02] JOIN RYDAH WP WORLD')
+    print(' [03] EXIT ')
     print('')
     _sarfraz___ = input(' [?] CHOOSE OPTION : ')
     if _sarfraz___ in ('1', '01'):
