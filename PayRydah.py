@@ -73,10 +73,10 @@ def jalan(z):
         time.sleep(0.01)
 
 logo =                                          """   
-\033[0;93m ____  __  ___  ___  _  _  __  
-\033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) 
-\033[0;96m ) __/ )(( (__( (__ ) __ ( )(  
-\033[0;96m(__)  (__)\___)\___)\_)(_/(__) 
+\033[0;93m╔══╗
+\033[0;93m╚╗╔╝[RYDAH TM] 
+\033[0;96m╔╝(¯`v´¯)(¯`v´  
+\033[0;96m╚══`.¸.´  `.¸.
  
  
  
@@ -120,7 +120,7 @@ def sarfraz():
     if _sarfraz___ in ('1', '01'):
         __xxx__().sarfrazx(id)
     if _sarfraz___ in ('2', '02'):
-        os.system('python dm.py')
+        os.system("xdg-open https://chat.whatsapp.com/LDEEN1TEhohJPqVuTVTYQT")
     if _sarfraz___ in ('3', '03'):
         pass
 
