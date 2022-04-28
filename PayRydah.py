@@ -210,7 +210,7 @@ def sarfraz():
     todz = ''
     IP = ipm['origin']
     print
-    print(' [1] START FILE CLONING')
+    print(' [1] START CLONING WITH RYDAH')
     print(' [2] JOIN RYDAH WP WORLD')
     print(' [3] EXIT ')
     print('')
