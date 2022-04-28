@@ -249,11 +249,11 @@ class __xxx__:
         elif chi in ('1', '01'):
             os.system("clear")
             print(logo)
-                                    print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
-                                    print(50*"-")
-                                    print('\033[1;36mTOTAL IDS : %s ' % len(self.id))
-                                    print('\033[1;36mRYDAH CLONING STARTED.....')
-                                    print(50*"-")
+            print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
+            print(50*"-")
+            print('\033[1;36mTOTAL IDS : %s ' % len(self.id))
+            print('\033[1;36mRYDAH CLONING STARTED.....')
+            print(50*"-")
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # RYDAH NIGERIAN HACKER
                     try:
