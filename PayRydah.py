@@ -179,13 +179,13 @@ logo =                                          """
  
  
 \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[0;91mAUTHOR   : RYDAH TM
- 
-\033[0;93mFACEBOOK : RYDAH MAN
- 
-\033[0;96mGITHUB   : WeAnnony
- 
-\033[0;95mTOOLS    : Rydah FAST FILE CLONING 
+             \033[0;91mAUTHOR   : RYDAH TM
+ \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              \033[0;93mFACEBOOK : RYDAH MAN
+ \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               \033[0;96mGITHUB   : WeAnnony
+ \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                \033[0;95mTOOLS    : Rydah FAST FILE CLONING 
 \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ """                                              
 
 def hasil(OK,cp):
@@ -347,10 +347,10 @@ class __xxx__:
         elif chi in ('1', '01'):
             os.system("clear")
             print(logo)
-            print("           \033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
+            print("           \033[1;91m\r😊USE FLIGHT (airplane) MODE ON\033[1;96m")
             print(50*"-")
-            print('            \033[1;36mTOTAL IDS : %s ' % len(self.id))
-            print('             \033[1;36mRYDAH CLONING STARTED.....')
+            print('            \033[1;36m😊TOTAL IDS : %s ' % len(self.id))
+            print('             \033[1;36m😊RYDAH CLONING STARTED.....')
             print(50*"-")
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # RYDAH NIGERIAN HACKER
