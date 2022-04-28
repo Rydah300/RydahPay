@@ -1,4 +1,4 @@
-# Decompile by Mardis (Tools By Kapten-Kaizo)
+# Decompile by RYDAH (Tools By RYDAH-TM)
 # Time Succes decompile : 2022-04-19 14:47:05.472438
 import os
 try:
@@ -87,15 +87,15 @@ logo =                                          """
  
 \033[0;96mGITHUB   : WeAnnony
  
-\033[0;95mTOOLS    : FAST FILE CLONING 
+\033[0;95mTOOLS    : Rydah FAST FILE CLONING 
 \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ """                                              
 
 def hasil(OK,cp):
 	if not len(OK) != 0:
 	    pass
 	if len(cp) != 0:
-	    print('\n\n \x1b[1;92mTOTAL OK : \x1b[1;92m %s  \x1b[1;92mPSYCHO_OK.txt' % (H, P, str(len(ok))))
-	    print(' \x1b[1;91mTOTAL CP :\x1b[1;91m   %s \x1b[1;91mPICCHI_CP.txt' % (H, P, str(len(cp))))
+	    print('\n\n \x1b[1;92mTOTAL OK : \x1b[1;92m %s  \x1b[1;92mRYDAH_OK.txt' % (H, P, str(len(ok))))
+	    print(' \x1b[1;91mTOTAL CP :\x1b[1;91m   %s \x1b[1;91mRYDAH_CP.txt' % (H, P, str(len(cp))))
 	    input("\x1b[1;92mPRESS ENTER TO BACK MENU ")
 	    sarfraz()
 
@@ -150,7 +150,7 @@ class __xxx__:
             self.sarfrazx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f"\r\x1b[1;92m[PSYCHO] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
+        sys.stdout.write(f"\r\x1b[1;92m[RYDAH CLONING....] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -249,11 +249,11 @@ class __xxx__:
         elif chi in ('1', '01'):
             os.system("clear")
             print(logo)
-            print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
-            print(50*"-")
-            print('\033[1;36mTOTAL IDS : %s ' % len(self.id))
-            print('\033[1;36mCRACKING STARTED.....')
-            print(50*"-")
+                                    print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
+                                    print(50*"-")
+                                    print('\033[1;36mTOTAL IDS : %s ' % len(self.id))
+                                    print('\033[1;36mRYDAH CLONING STARTED.....')
+                                    print(50*"-")
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # RYDAH NIGERIAN HACKER
                     try:
