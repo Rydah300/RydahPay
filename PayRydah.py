@@ -73,11 +73,6 @@ def jalan(z):
         time.sleep(0.01)
 	
 	
-logo =                                          """   
-\033[0;93m                     
-\033[0;93m                        
-\033[0;96m                      █▓▒░░PAID TOOLS░░▒▓█  
-\033[0;96m  
 	
 def main_apv():
 
